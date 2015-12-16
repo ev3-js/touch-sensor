@@ -14,7 +14,7 @@ read information from EV3 touch sensor
 
 ```js
 var TouchSensor = require('ev3-js-touch-sensor')
-TouchSensor('b').value // => 0
+TouchSensor(3).value // => 0
 ```
 
 ## API
