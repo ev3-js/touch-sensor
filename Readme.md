@@ -13,17 +13,27 @@ read information from EV3 touch sensor
 ## Usage
 
 ```js
-var touchSensor = require('ev3-js-touch-sensor')
+var TouchSensor = require('ev3-js-touch-sensor')
 
 ```
 
 ## API
 
-### touchSensor(arg)
+### TouchSensor(port)
 
-- `arg` -
+- `port` - number of port where the touch sensor is connected
 
-**Returns:**
+**Returns:** instance of TouchSensor
+
+### .value
+Set the touch sensor to mode TOUCH and get a value.
+
+**Returns:** either 0 or 1 to indicate the state of the touch sensor
+
+value | state
+---|---
+0 | not pressed
+1 | pressed
 
 ## License
 
