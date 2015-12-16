@@ -14,7 +14,7 @@ read information from EV3 touch sensor
 
 ```js
 var TouchSensor = require('ev3-js-touch-sensor')
-
+TouchSensor('b').value // => 0
 ```
 
 ## API
@@ -26,7 +26,7 @@ var TouchSensor = require('ev3-js-touch-sensor')
 **Returns:** instance of TouchSensor
 
 ### .value
-Set the touch sensor to mode TOUCH and get a value.
+Get the value of the touch sensor.
 
 **Returns:** either 0 or 1 to indicate the state of the touch sensor
 
