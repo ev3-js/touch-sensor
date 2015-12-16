@@ -2,7 +2,7 @@
   "name": "ev3-js-touch-sensor",
   "description": "read information from EV3 touch sensor",
   "repository": "git://github.com/micro-js/touch-sensor.git",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "license": "MIT",
   "main": "lib/index.js",
   "scripts": {
