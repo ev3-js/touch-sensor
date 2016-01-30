@@ -8,7 +8,7 @@ read information from EV3 touch sensor
 
 ## Installation
 
-    $ npm install ev3-js-touch-sensor
+    $ npm install touch-sensor
 
 ## Usage
 
